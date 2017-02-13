@@ -19,7 +19,18 @@ i.fa-pull-right {
 
 /* ----------- end typography ----------- */
 /*** slidebar in oshine slidebar is above main content *** */
+#header-top-bar #header-top-bar-right {
+  padding-top: 15px; }
+
 /*  header stuff - here */
+#header-bottom-bar-wrap #navigation {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.page-title-module-custom {
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
 /*** styling of content */
 .left-sidebar-page,
 .right-sidebar-page,
@@ -30,14 +41,23 @@ i.fa-pull-right {
   padding-top: 40px;
   padding-bottom: 40px; }
 
+.tatsu-module.tatsu-gmap-wrapper {
+  margin-bottom: 0px;
+  padding-left: 4%;
+  padding-right: 4%; }
+
 .page #comments {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
 /** footer **/
 #reach-bottom-cta {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  background-color: #2e2e2e;
+  margin-top: 40px; }
+  #reach-bottom-cta .widget {
+    margin-bottom: 0px; }
+    #reach-bottom-cta .widget .tatsu-icon-shortcode.align-left {
+      float: left; }
 
 #footer a.reach-logo {
   color: white; }

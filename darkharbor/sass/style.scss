@@ -16,21 +16,44 @@ Version: 1.2
 .sb-slidebar { // the sidebar sliding bar for mobil menu
 
 }
+#header-top-bar {
+	#header-top-bar-right {
+		padding-top: 15px;
+	}
+}
+
 /*  header stuff - here */
-#header-controls-right { 
+#header-controls-right {
 
 }
+
+// menu under header
+#header-bottom-bar-wrap {
+	#navigation {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+// page title
+.page-title-module-custom {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
 /*** styling of content */
-.left-sidebar-page, 
-.right-sidebar-page, 
-.no-sidebar-page .be-section-pad:first-child, 
-.page-template-page-940-php #content, 
-.no-sidebar-page #content-wrap, 
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
+.tatsu-module.tatsu-gmap-wrapper { // google map
+	margin-bottom: 0px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
 .page #comments {
 	padding-top: 0px!important;
 	padding-bottom: 0px!important;
@@ -39,8 +62,15 @@ Version: 1.2
 /** footer **/
 // reach-bottom-cta
 #reach-bottom-cta{
+	background-color: $reach-CTA-bkg;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	//margin-bottom: 40px;
+	.widget {
+		margin-bottom: 0px;
+		.tatsu-icon-shortcode.align-left {
+			float: left;
+		}
+	}
 }
 // footer
 #footer {
