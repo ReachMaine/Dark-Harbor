@@ -18,6 +18,15 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
+/* styling for wunderground plugin */
+.wu-wrapper.wp_wunderground * {
+  font-family: Montserrat, "Open Sans", Arial, sans-serif; }
+
+.wu-wrapper.wp_wunderground .wu-forecast-wrapper .wu-forecast-body {
+  text-align: center; }
+.wu-wrapper.wp_wunderground .wu-forecast-wrapper sup {
+  top: 0; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
@@ -47,3 +56,6 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 767px) {
+  #main-wrapper .title-module-wrap.page-title-module-custom .page-title-custom {
+    text-align: center; } }

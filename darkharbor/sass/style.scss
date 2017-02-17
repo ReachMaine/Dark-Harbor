@@ -9,6 +9,7 @@ Version: 1.2
 @import url("../oshin/style.css");
 @import "partials/colors";
 @import "partials/typography";
+@import "partials/wunderground";
 
 
 
@@ -17,15 +18,15 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-#header-controls-right { 
+#header-controls-right {
 
 }
 /*** styling of content */
-.left-sidebar-page, 
-.right-sidebar-page, 
-.no-sidebar-page .be-section-pad:first-child, 
-.page-template-page-940-php #content, 
-.no-sidebar-page #content-wrap, 
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;

@@ -1,0 +1,14 @@
+/* styling for wunderground plugin */
+.wu-wrapper.wp_wunderground * {
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+}
+.wu-wrapper.wp_wunderground {
+    .wu-forecast-wrapper {
+        .wu-forecast-body {
+            text-align:center;
+        }
+        sup { // the degree sign on the temperature
+            top: 0;
+        }
+    }
+}
