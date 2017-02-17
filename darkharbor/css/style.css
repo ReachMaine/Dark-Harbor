@@ -1,3 +1,4 @@
+@import url("../oshin/style.css");
 /*
 Theme Name: Dark Harbor
 Description: Oshin Child Theme for Dark Harbor Boat Yard
@@ -5,7 +6,6 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
-@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
