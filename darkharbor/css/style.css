@@ -61,14 +61,17 @@ i.fa-pull-right {
 
 /** footer **/
 #reach-bottom-cta {
-  background-color: #2e2e2e;
-  margin-top: 40px; }
+  background-color: #1a1a1a;
+  margin-top: 0px; }
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
     #reach-bottom-cta .widget .tatsu-icon-shortcode.align-left {
       float: left;
       margin-bottom: 0px;
       padding-top: 5px; }
+    #reach-bottom-cta .widget .dhby-skinny-col a.tatsu-button.largebtn {
+      padding-left: 10px;
+      padding-right: 10px; }
 
 #bottom-widgets {
   padding-top: 35px;
