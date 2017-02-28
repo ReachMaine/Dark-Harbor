@@ -63,6 +63,11 @@ i.fa-pull-right {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
+.weather-widget {
+  text-align: center;
+  width: 50%;
+  float: left; }
+
 /** footer **/
 #reach-bottom-cta {
   background-color: #1a1a1a;
@@ -90,5 +95,14 @@ i.fa-pull-right {
 /* *** keep this at the end *** */
 /* **** media **** */
 @media only screen and (max-width: 767px) {
+  .weather-widget {
+    width: 100%;
+    clear: both;
+    margin-top: 25px; }
+
   #main-wrapper .title-module-wrap.page-title-module-custom .page-title-custom {
     text-align: center; } }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .weather-widget canvas {
+    width: 135px !important;
+    height: 135px !important; } }

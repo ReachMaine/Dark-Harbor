@@ -2,6 +2,12 @@
 
 @media only screen and (max-width: 767px) { // smaller than desktop
 
+	.weather-widget {
+		width: 100%;
+		clear: both;
+		margin-top: 25px;
+	}
+
 	#sb-slidebar-content {
 		#slidebar-menu {
 			.mobile-sub-menu-controller {
@@ -36,5 +42,12 @@
 		//		width: 92%!important;
 			}
 		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.weather-widget canvas {
+		width: 135px !important;
+		height: 135px !important;
 	}
 }
