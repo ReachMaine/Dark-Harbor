@@ -9,11 +9,13 @@
 // remove_shortcode('gallery');
 // add_shortcode('gallery','gallery_shortcode');
 // remove_shortcode('video');
-// add_shortcode('video','wp_video_shortcode');      
+// add_shortcode('video','wp_video_shortcode');
 // }
 // add_action( 'init', 'be_restore_default_gallery');
-    
-  require_once(get_stylesheet_directory().'/custom/branding.php'); 
+
+  require_once(get_stylesheet_directory().'/custom/branding.php');
+  require_once(get_stylesheet_directory().'/custom/woocommerce.php');
+  //require_once(get_stylesheet_directory().'/custom/language.php');
 
 
   function reach_widgets_init() {
@@ -22,7 +24,7 @@
            'name' => __( 'Bottom Call to Action ', 'be-themes' ),
            'id'   => 'reach-bottom-cta',
            'description'   => __( 'Widget area (above footer)', 'be-themes' ),
-           'before_widget' => '<div class="%2$s widget">', 
+           'before_widget' => '<div class="%2$s widget">',
            'after_widget'  => '</div>',
            'before_title'  => '<h6>',
            'after_title'   => '</h6>',

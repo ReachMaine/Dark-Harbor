@@ -32,6 +32,15 @@ i.fa-pull-right {
 .wu-wrapper.wp_wunderground .wu-forecast-wrapper sup {
   top: 0; }
 
+/* styling for woocommerce */
+.woocommerce-message {
+  background: #e8c76f;
+  background: -moz-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: -webkit-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: linear-gradient(to bottom, #efd56c 34%, #c69e2d 100%);
+  border: 1px solid #d0ab73;
+  color: black; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 #header-top-bar #header-top-bar-right {
   padding-top: 15px; }
