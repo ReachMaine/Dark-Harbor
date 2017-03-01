@@ -70,7 +70,24 @@ Version: 1.2
 	width: 50%;
 	float: left;
 }
-
+// contact form.
+.wpcf7-form {
+	input[type="submit"] {
+		background: $goldgrad-bkup;
+		background: $goldgrad-moz;
+		background: $goldgrad-web;
+		background: $goldgrad-lin;
+		border: 1px solid $golder-border;
+		color: black;
+	}
+}
+ .wpcf7-response-output.wpcf7-mail-sent-ok {
+	 background: $goldgrad-bkup;
+	 background: $goldgrad-moz;
+	 background: $goldgrad-web;
+	 background: $goldgrad-lin;
+	 border: 1px solid $golder-border;
+ }
 /** footer **/
 // reach-bottom-cta
 #reach-bottom-cta{
@@ -106,6 +123,9 @@ Version: 1.2
     	content: url('images/reach-favicon.png');
     	padding-right: 4px;
     }
+}
+#back-to-top {
+	border-radius: 25%;
 }
 /* *** keep this at the end *** */
 @import "partials/media";

@@ -1,3 +1,4 @@
+@import url("../oshin/style.css");
 /*
 Theme Name: Dark Harbor
 Description: Oshin Child Theme for Dark Harbor Boat Yard
@@ -5,8 +6,12 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
-@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
+/* Gold gradient Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8c76f+34,c69e2d+100 */
+/* Old browsers */
+/* FF3.6-15 */
+/* Chrome10-25,Safari5.1-6 */
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
 i.fa-pull-left {
@@ -68,6 +73,21 @@ i.fa-pull-right {
   width: 50%;
   float: left; }
 
+.wpcf7-form input[type="submit"] {
+  background: #e8c76f;
+  background: -moz-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: -webkit-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: linear-gradient(to bottom, #efd56c 34%, #c69e2d 100%);
+  border: 1px solid #d0ab73;
+  color: black; }
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+  background: #e8c76f;
+  background: -moz-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: -webkit-linear-gradient(top, #efd56c 34%, #c69e2d 100%);
+  background: linear-gradient(to bottom, #efd56c 34%, #c69e2d 100%);
+  border: 1px solid #d0ab73; }
+
 /** footer **/
 #reach-bottom-cta {
   background-color: #1a1a1a;
@@ -91,6 +111,9 @@ i.fa-pull-right {
 #footer .reach-logo:before {
   content: url("images/reach-favicon.png");
   padding-right: 4px; }
+
+#back-to-top {
+  border-radius: 25%; }
 
 /* *** keep this at the end *** */
 /* **** media **** */

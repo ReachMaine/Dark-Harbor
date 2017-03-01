@@ -7,4 +7,12 @@ $reach-orange: #ffa73d;
 // Background colors:
 $reach-CTA-bkg: #1a1a1a;
 // special colors
+/* Gold gradient Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8c76f+34,c69e2d+100 */
+$golder-border: #d0ab73;
+$goldgrad-start: #efd56c; //#e8c76f;
+$goldgrad-end: #c69e2d;
+$goldgrad-bkup: #e8c76f; /* Old browsers */
+$goldgrad-moz: -moz-linear-gradient(top, $goldgrad-start 34%, $goldgrad-end 100%); /* FF3.6-15 */
+$goldgrad-web: -webkit-linear-gradient(top, $goldgrad-start 34%,$goldgrad-end 100%); /* Chrome10-25,Safari5.1-6 */
+$goldgrad-lin: linear-gradient(to bottom, $goldgrad-start 34%,$goldgrad-end 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 /* ----------- end Colors ----------- */
