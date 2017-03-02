@@ -20,3 +20,12 @@ add_filter( 'woocommerce_return_to_shop_redirect', 'skyverge_change_empty_cart_b
  function reach_after_theme_setup() {
      remove_action('woocommerce_single_product_summary', 'be_themes_share_woo_products', 59);
 }
+
+// checkout
+add_filter('woocommerce_checkout_fields', 'custom_woocommerce_checkout_fields');
+function custom_woocommerce_checkout_fields( $fields ) {
+
+     $fields['order']['order_comments']['placeholder'] = 'Additional notes about your payment';
+	 $fields['order']['order_comments']['label'] = 'Payment Notes';
+     return $fields;
+}

@@ -7,3 +7,51 @@
     border: 1px solid $golder-border;
     color: black;
 }
+// single product
+
+.woocommerce.single-product { // body class
+    .product.nyp-product {
+        p.price {
+            display: none;
+        }
+    }
+    .product {
+        .summary.entry-summary {
+            margin: auto;
+            float: none!important;
+        }
+        .product_title {
+            width: 100%!important;
+        }
+        .nyp { // name your price box.
+            #nyp {
+                max-width: 200px;
+                margin-bottom: 0px;
+            }
+            p.minimum-price{
+                margin-bottom: 0px;
+            }
+        }
+        .product-addon {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            h3.addon-name { // make add on name look like nyp label for payment amount.
+                font-family: Montserrat, "Open Sans", Arial, sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+        }
+        .product-addon.product-addon-account-number {
+            h3.addon-name {
+                float: left;
+                padding-right: .4em;
+            }
+            p.form-row {
+                float:left!important;
+                clear: none;
+            }
+        }
+    }
+
+}

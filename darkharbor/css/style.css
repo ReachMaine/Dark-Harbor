@@ -41,6 +41,33 @@ i.fa-pull-right {
   border: 1px solid #d0ab73;
   color: black; }
 
+.woocommerce.single-product .product.nyp-product p.price {
+  display: none; }
+.woocommerce.single-product .product .summary.entry-summary {
+  margin: auto;
+  float: none !important; }
+.woocommerce.single-product .product .product_title {
+  width: 100% !important; }
+.woocommerce.single-product .product .nyp #nyp {
+  max-width: 200px;
+  margin-bottom: 0px; }
+.woocommerce.single-product .product .nyp p.minimum-price {
+  margin-bottom: 0px; }
+.woocommerce.single-product .product .product-addon {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+  .woocommerce.single-product .product .product-addon h3.addon-name {
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px; }
+.woocommerce.single-product .product .product-addon.product-addon-account-number h3.addon-name {
+  float: left;
+  padding-right: .4em; }
+.woocommerce.single-product .product .product-addon.product-addon-account-number p.form-row {
+  float: left !important;
+  clear: none; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 #header-top-bar #header-top-bar-right {
   padding-top: 15px; }
@@ -59,6 +86,10 @@ i.fa-pull-right {
   padding-bottom: 12px; }
 
 /*** styling of content */
+#content.right-sidebar-page {
+  padding-top: 40px !important;
+  padding-bottom: 0px !important; }
+
 .left-sidebar-page,
 .right-sidebar-page,
 .no-sidebar-page .be-section-pad:first-child,
