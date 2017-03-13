@@ -15,7 +15,7 @@
 
   require_once(get_stylesheet_directory().'/custom/branding.php');
   require_once(get_stylesheet_directory().'/custom/woocommerce.php');
-  //require_once(get_stylesheet_directory().'/custom/language.php');
+  require_once(get_stylesheet_directory().'/custom/language.php');
 
 
   function reach_widgets_init() {
