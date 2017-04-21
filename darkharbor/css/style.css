@@ -1,4 +1,3 @@
-@import url("../oshin/style.css");
 /*
 Theme Name: Dark Harbor
 Description: Oshin Child Theme for Dark Harbor Boat Yard
@@ -6,6 +5,7 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
+@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* Gold gradient Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8c76f+34,c69e2d+100 */
 /* Old browsers */
@@ -169,3 +169,17 @@ i.fa-pull-right {
   .weather-widget canvas {
     width: 135px !important;
     height: 135px !important; } }
+/* style sheet for print */
+@media print {
+  a[href^=http]:after {
+    content: ""; }
+
+  a[href^="?"]:after {
+    content: ""; }
+
+  #header-top-bar-wrap,
+  #topbar-menu,
+  #navigation,
+  #reach-bottom-cta,
+  .hide-print {
+    display: none; } }

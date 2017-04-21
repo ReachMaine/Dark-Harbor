@@ -1,0 +1,16 @@
+/* style sheet for print */
+@media print {
+  a[href^=http]:after {
+      content:"";
+  }
+  a[href^="?"]:after {
+      content:"";
+  }
+  #header-top-bar-wrap,
+  #topbar-menu,
+  #navigation,
+  #reach-bottom-cta,
+  .hide-print {
+    display: none;
+  }
+}
