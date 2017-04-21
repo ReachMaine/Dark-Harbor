@@ -5,16 +5,34 @@
 		function reach_change_theme_text( $translated_text, $text, $domain ) {
 			 /* if ( is_singular() ) { */
 			    switch ($domain) {
-					/*case 'woocommerce':
+					case 'woocommerce':
 						switch ( $translated_text ) {
-				            case 'Place order' :
-				                $translated_text = __( 'Make Payment',  'woocommerce'  );
-				                break;
-				           case 'Add to cart':
-				            	$translated_text = __( 'Continue to Checkout',  'woocommerce'  );
-				            	break;
+							 case 'Order received':
+								$translated_text = __( 'Payment received:',  'woocommerce'  );
+								break;
+							case 'Order number:' :
+								 $translated_text = __( 'Payment Number:',  'woocommerce'  );
+								 break;
+							case 'Your order' :
+							    $translated_text = __( 'Your Payment',  'woocommerce'  );
+							    break;
+							case 'Your order' :
+									 $translated_text = __( 'Your Payment',  'woocommerce'  );
+									 break;
+							case 'Place order' :
+							  $translated_text = __( 'Make Payment',  'woocommerce'  );
+							  break;
+							case 'Product' :
+								$translated_text = __( 'Payment',  'woocommerce'  );
+								break;
+							case 'Order details':
+								$translated_text = __( 'Payment details',  'woocommerce'  );
+								break;
+							case 'Thank you. Your order has been received.':
+								$translated_text = __( 'Thank you. Your payment has been received.',  'woocommerce'  );
+								break;
 				        }
-						break;*/
+						break;
 						case 'oshin':
 							switch ( $translated_text ) {
 					            case 'Under :' :
